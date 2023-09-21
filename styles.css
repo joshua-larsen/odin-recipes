@@ -1,13 +1,32 @@
 h1 {
     font-family: 'Open Sans', Roboto, sans-serif;
-    font-size: large;
+    font-size: 72px;
+    font-weight: 800;
 }
 h2 {
     font-family: 'Open Sans', Roboto, sans-serif;
-    font-size: medium;
+    font-size: 60;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Open Sans', Roboto, sans-serif;
+    font-size: 48;
+    font-weight: 600;
+}
+h4 {
+    font-family: 'Open Sans', Roboto, sans-serif;
+    font-size: 36;
+    font-weight: 500;
 }
 
 p {
     font-family: 'Open Sans', Roboto, sans-serif;
-    font-size: small;
+    font-size: 24;
+}
+li {
+    font-family: 'Open Sans', Roboto, sans-serif;
+    font-size: 24;
+}
+img {
+    border-radius: 0px;
 }
