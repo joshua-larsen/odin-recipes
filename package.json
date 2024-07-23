@@ -1,13 +1,15 @@
 {
-  "name": "odin-recipes",
+  "name": "joshua-larsen-portfolio",
   "version": "1.0.0",
-  "description": "This is a personal portfolio website for Joshua Larsen, a Full Stack Developer at TXI. The website is built using HTML and Tailwind CSS, designed to be hosted on GitHub Pages.",
-  "main": "index.js",
+  "description": "Personal portfolio website for Joshua Larsen, a Full Stack Developer and Project Manager.",
+  "main": "src/app.imba",
   "scripts": {
+    "start": "imba -w src/app.imba",
+    "build": "imba build src/app.imba",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["portfolio", "imba", "web development"],
+  "author": "Joshua Larsen",
   "license": "ISC",
   "dependencies": {
     "imba": "^2.0.0-alpha.236"
