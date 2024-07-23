@@ -1,13 +1,22 @@
-# Personal Portfolio Website
+# Joshua Larsen - Personal Portfolio Website
 
-This is a personal portfolio website built using HTML and Tailwind CSS. It's designed to be hosted on GitHub Pages.
+This is a personal portfolio website for Joshua Larsen, a Full Stack Developer at TXI. The website is built using HTML and Tailwind CSS, designed to be hosted on GitHub Pages.
 
 ## Features
 
 - Responsive design
 - Tailwind CSS for styling
-- Visually striking color scheme using California poppy orange and indigo blue
-- Header links to blog, Twitter, and LinkedIn
+- Visually striking color scheme using California poppy orange (#FF9F00) and custom blue (#5557ff)
+- Header links to Home, Projects, About, Blog, Twitter, and LinkedIn
+- Sections for Skills & Expertise and About Me
+
+## Content
+
+The website includes the following information:
+
+- Joshua's current position as a Full Stack Developer at TXI
+- Skills and expertise in Full Stack Development, Ruby on Rails, and React & JavaScript
+- A brief introduction about Joshua's professional background and goals
 
 ## Setup
 
@@ -26,13 +35,14 @@ This website is designed to be deployed on GitHub Pages. To deploy:
 
 ## Customization
 
-To customize this website for your own use:
+This website is customized for Joshua Larsen. If you want to use this template for your own portfolio:
 
 1. Update the content in `index.html` with your own information
-2. Replace "Your Name" with your actual name
-3. Update the links in the header to point to your own blog, Twitter, and LinkedIn profiles
-4. Add your own projects to the "Featured Projects" section
+2. Replace "Joshua Larsen" with your name
+3. Update the links in the header to point to your own profiles
+4. Modify the "Skills & Expertise" section to reflect your own skills
 5. Update the "About Me" section with your own description
+6. Adjust the color scheme in the Tailwind configuration if desired
 
 ## License
 
