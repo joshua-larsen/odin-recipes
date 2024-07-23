@@ -4,7 +4,6 @@ export tag Hero
 	<self.py-20>
 		<div.container.mx-auto.flex.flex-col.md-flex-row.items-center>
 			<div.md-w-1-3.mb-8.md-mb-0>
-				<img.rounded-full.w-64.h-64.mx-auto.md-mx-0.object-cover src="../images/headshot.jpeg" alt="Joshua Larsen">
 			<div.md-w-2-3.md-pl-12>
 				<h1.text-4xl.md-text-6xl.font-bold.mb-4> "Joshua Larsen"
 				<h2.text-xl.md-text-2xl.mb-8> "Project Manager & Full Stack Developer"
