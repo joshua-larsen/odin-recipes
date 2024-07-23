@@ -1,20 +1,91 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'poppy': '#FF9F00',
+                        'indigo': '#4B0082',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            }
+        }
+    </style>
 </head>
-<body>
-    <h2>Odin Recipes</h1>
-    <h4>Here are some of my favorite recipes!</h4>
-    <ul>
-        <li><a href="recipes/golden-milk.html">Golden Milk</a></li>
-        <li><a href="recipes/miso-soup.html">Miso Soup</a></li>
-        <li><a href="recipes/chimichurri.html">Chimichurri</a></li>
-        <li><a href="recipes/crispy-tofu.html">Crispy Tofu</a></li>
-    </ul>
+<body class="bg-white text-black">
+    <header class="bg-black text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Your Name</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-poppy transition-colors">Home</a></li>
+                <li><a href="#" class="hover:text-poppy transition-colors">Projects</a></li>
+                <li><a href="#" class="hover:text-poppy transition-colors">About</a></li>
+                <li><a href="#" class="hover:text-poppy transition-colors">Blog</a></li>
+                <li><a href="#" class="hover:text-poppy transition-colors">Twitter</a></li>
+                <li><a href="#" class="hover:text-poppy transition-colors">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>Made with ♥️ by <a href="https://joshua-larsen.super.site">Joshua</a></p>
+    <main>
+        <section class="bg-gradient-to-r from-poppy to-indigo text-white py-20">
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 text-shadow">Welcome to My Portfolio</h1>
+                <p class="text-xl md:text-2xl mb-8">Discover my projects and skills</p>
+                <a href="#" class="bg-white text-indigo font-bold py-2 px-4 rounded-full hover:bg-poppy hover:text-white transition-colors">Explore Now</a>
+            </div>
+        </section>
 
+        <section class="py-20">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Featured Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project cards go here -->
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                        <p class="text-gray-600 mb-4">Description of Project 1</p>
+                        <a href="#" class="text-indigo hover:text-poppy">Learn More</a>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">Project 2</h3>
+                        <p class="text-gray-600 mb-4">Description of Project 2</p>
+                        <a href="#" class="text-indigo hover:text-poppy">Learn More</a>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                        <p class="text-gray-600 mb-4">Description of Project 3</p>
+                        <a href="#" class="text-indigo hover:text-poppy">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="bg-indigo text-white py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8">About Me</h2>
+                <p class="text-xl mb-8">A brief introduction about yourself and your skills.</p>
+                <a href="#" class="bg-poppy text-white font-bold py-2 px-4 rounded-full hover:bg-white hover:text-indigo transition-colors">Download Resume</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-</html> 
+</html>
